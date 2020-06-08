@@ -1,0 +1,5 @@
+C:\Users\Laptop2\Desktop\MyShop\MyShop.core\bin\Debug\MyShop.core.dll
+C:\Users\Laptop2\Desktop\MyShop\MyShop.core\bin\Debug\MyShop.core.pdb
+C:\Users\Laptop2\Desktop\MyShop\MyShop.core\obj\Debug\MyShop.core.dll
+C:\Users\Laptop2\Desktop\MyShop\MyShop.core\obj\Debug\MyShop.core.pdb
+C:\Users\Laptop2\Desktop\MyShop\MyShop.core\obj\Debug\MyShop.core.csprojAssemblyReference.cache

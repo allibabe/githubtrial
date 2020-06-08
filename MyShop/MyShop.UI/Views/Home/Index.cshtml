@@ -1,0 +1,39 @@
+﻿@model IEnumerable<MyShop.core.Models.Products>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1>Products</h1>
+
+<div class="container-fluid">
+    <div class="row col-md-offset-2">
+
+        @foreach (var products in Model)
+        {
+            <div class="col-md-4 " style="height:400px; border:solid thin whitesmoke;padding:40px;margin-top:20px;">
+                <div class="col-md-12">
+                    <img src="~/Content/ProductImages/@products.Image" alt="Alternate Text" class="img-circle" style="height:250px;width:100%;" />
+                </div>
+                <div class="col-md-12 text-center">
+                    <strong>@Html.ActionLink(products.Name, "Details", new { id = products.Id })</strong>
+                </div>
+
+                <div class="col-md-12 text-center">
+                    <p>@products.Description</p>
+                </div>
+
+                <div class="col-md-12 text-center ">
+                    <h4>@products.Price</h4>
+                </div>
+                <div class="col-sm-12">
+                    <a href="" class="btn btn-primary col-md-12 col-sm-12" style="width:100% !important;">Add To Basket</a>
+                </div>
+
+
+            </div>
+
+
+        }
+    </div>
+    </div>
+<div class="col-md-12 clearfix"></div> 
